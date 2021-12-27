@@ -1,0 +1,132 @@
+:root {
+  --header-bg: #131921;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+}
+
+.text{
+    color:white;
+    font-size: 13px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background: var(--header-bg);
+  gap: 10px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header__left > a > img {
+  max-width: 113px;
+  width: 100%;
+}
+
+h4 > .MuiSvgIcon-root {
+    font-size: 1rem !important;
+} 
+
+.nav__leftLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.header__mid {
+  flex: 1;
+  display: flex;
+  background: white;
+  align-items: center;
+  border-radius: 8px;
+}
+
+
+
+.header__mid:focus{
+    border: 1px solid #febd69;
+}
+
+.header__mid > input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.header__mid > input:focus{
+    border: none;
+    outline: none;
+}
+
+.header__mid > .MuiSvgIcon-root{
+    background: #febd69 !important;
+    font-size: 35px;
+    cursor: pointer;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 300 !important;
+    padding: 7px;
+    
+}
+
+.header__mid > button {
+    display: none;
+}
+
+.header__right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.header__rightCart{
+    display: flex;
+    position: relative;
+}
+
+.header__rightCart > .MuiSvgIcon-root{
+    color: white;
+    font-size: 40px;
+}
+
+.header__rightCart > .numberOfOrder{
+    color: #ffa500;
+    font-weight: bold;
+    position: absolute;
+    left: 28%;
+    top: 15%;
+}
+
+.header__left > img,
+.nav__leftLocation,
+.header__rightUser,
+.header__rightReturn,
+.header__rightCart{
+    border: 1px solid var(--header-bg);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.header__left > img:hover,
+.nav__leftLocation:hover,
+.header__rightUser:hover,
+.header__rightReturn:hover,
+.header__rightCart:hover{
+    border: 1px solid white;
+}

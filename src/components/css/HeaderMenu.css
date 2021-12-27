@@ -1,0 +1,46 @@
+:root {
+  --headerMenuBg: #232f3e;
+}
+
+.headerMenu {
+  width: 100%;
+  background: var(--headerMenuBg);
+  padding: 5px 10px;
+  display: flex;
+  gap: 30px;
+  color: white;
+  align-items: center;
+}
+
+.headerMenu__burger {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid var(--headerMenuBg);
+  padding: 4px 10px;
+}
+
+.headerMenu__burger:hover {
+  border: 1px solid white;
+}
+
+.headerMenu__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerMenu__list > a {
+  cursor: pointer;
+  padding: 4px 10px;
+  border: 1px solid var(--headerMenuBg);
+  border-radius: 4px;
+  font-size: 14px;
+  color: white !important;
+}
+
+.headerMenu__list > a:hover {
+  border: 1px solid white;
+}

@@ -1,0 +1,44 @@
+.MainItem > .card {
+  width: 350px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.card > img {
+  width: 100%;
+  object-fit: contain;
+  width: 312px;
+  height: 312px;
+}
+
+.card > p {
+  font-size: 21px;
+  color: #0f1111;
+  font-weight: 700;
+}
+
+.card > a {
+  color: #007185;
+}
+
+.card > a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.squadCollection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 311px;
+}
+
+.squadCollection > img {
+  width: 120px;
+  height: 120px;
+}
+

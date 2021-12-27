@@ -1,0 +1,82 @@
+.collection__resultsInfo{
+    background: white;
+    padding: 10px;
+    box-shadow: 1px -1px 10px #999;
+}
+
+.collection__resultContainer{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.collection__result{
+    border-radius: 4px;
+    padding: 1px;
+}
+
+.collection__resultContainer > p {
+    font-weight: 700;
+}
+
+.collection__resultContainer > p > span {
+    color: #C45500;
+}
+
+.collection__resultBox{
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    background: white;
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+
+}
+
+
+.collection__resultBoxRightr{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+
+}
+
+.collection__resultBoxRightr > img {
+    object-fit: contain;
+    height: 217px;
+    width: 273px;
+}
+.collection__resultBoxDescription > h4{
+    color: #0F1111;
+    height: 20px;
+}
+
+.collection__resultBoxDescription > p{
+    width: fit-content;
+}
+
+.collection__resultBoxDescription > p > .MuiSvgIcon-root{
+    transform: translate(-4px, 5px);
+    color: #ffa41c;
+}
+
+.collection__resultBoxDescription > .main__productPrice {
+    font-size: 23px;
+}
+
+
+.collection__resultBox > .MuiButtonBase-root {
+    background: #ffa41c !important;
+    width: 150px;
+    color: black !important;
+  }
+
+  .collection__skeletion{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+  }
+  

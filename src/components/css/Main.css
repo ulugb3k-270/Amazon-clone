@@ -1,0 +1,111 @@
+.Main.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main_bgshadow {
+  position: relative;
+  z-index: -999;
+}
+
+.asdss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.199),
+    rgba(255, 255, 255, 0.377),
+    #eaeded
+  );
+}
+
+.main_bgshadow > img {
+  width: 100%;
+  z-index: -2;
+}
+
+.main__content {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: -330px;
+  width: 100%;
+  z-index: 999;
+}
+
+.mainItem__userLogIn {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+  row-gap: 10px;
+  margin: 20px auto;
+}
+
+.mainItem__userLogIn > .MuiButtonBase-root {
+  background: #ffd814 !important;
+  width: 400px;
+}
+
+.main__productCards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.main__productCard {
+  border: 1px solid #d5dbdb;
+  width: 312px;
+  padding: 18px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  
+}
+
+.main__productCard > img {
+  margin: 0 auto;
+  width: 90%;
+  height: 255px;
+}
+
+.main__productPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #b12704;
+  font-weight: 600;
+}
+
+.main__productRating {
+  display: flex;
+  align-items: center;
+  columns: black;
+}
+
+.main__productRating > .MuiSvgIcon-root {
+  color: #ffa41c !important;
+}
+
+.main__productCard > button{
+  background: #ffa41c !important;
+
+}
+
